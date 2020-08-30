@@ -1,0 +1,90 @@
+#top{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 60px;
+    background-color: rgba(30, 143,255, 0.367);
+    padding-left: 10px;
+}
+
+#middle {
+    position: fixed;
+    top: 60px;
+    right: 0px;
+    left: 0px;
+    height: 60px;
+    background-color: rgba(128, 128, 128,0.653);
+  
+}
+.column {
+    border :1px solid whitesmoke;
+    display:flex;
+    flex-direction: column;
+    margin: 15px;
+    background-color: rgba(245, 245, 245, 0.85);
+    border-radius: 5px;
+}
+.row{
+    display:flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 150px;
+}
+.heading{
+    display:flex;
+    font-weight: bold;
+    margin:9px;
+}
+.box{
+    display: flex;
+    border:1px solid white;
+    width: 230px;
+    height: 25px;
+    margin:8px;
+    background-color: white;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+.box:hover{
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.13);
+}
+.margin{ 
+    display: flex;
+    margin:8px;
+    width: 250px;
+}
+.margin:hover{
+    cursor: pointer;
+    color:  rgba(128, 128, 128, 0.13);
+}
+.card {
+    flex-basis: 80px;
+    color: white;
+    background-color: olive;
+    padding-top:8px;
+    padding-left: 8px;
+    height:30px;
+    border-radius: 5px;
+
+}
+.card:hover {
+    cursor: pointer;
+    background-color: rgba(128, 128, 0, 0.234);
+}
+.x {
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 5px;color:black;
+}
+.x:hover {
+    cursor: pointer;
+    color: gray;
+
+}
+body{
+    background-image: url("https://i.pinimg.com/originals/4a/a7/bc/4aa7bc19ec548accd1653179bf7267d9.jpg");
+    background-attachment: fixed;
+    background-size: 150% 250%;
+}
